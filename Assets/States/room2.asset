@@ -10,29 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4c26927ca4526444b8e3f2710639f68, type: 3}
-  m_Name: StartingState
+  m_Name: room2
   m_EditorClassIdentifier: 
-  stateText: 'This is where your story begins you have just woken up and feel very
-    dizzy you check to see if anything is broken all is fine except that the only
-    weapon you have is a dagger.
-
-    
-
-    To the left of you is a coridor and
-    to the right is a glowing door
-
-    
-
-    Which way do you go
-
-    
-
-    1
-    : Left
-
-    
-
-    2 : Right'
+  stateText: room2
   nextState:
+  - {fileID: 11400000, guid: a9a2653bbbe300e499ee4170982e945d, type: 2}
   - {fileID: 11400000, guid: 53a8e4c32bb5c1e49822faa2aeb536e1, type: 2}
-  - {fileID: 11400000, guid: aa64f6a96b84b8b4bb8c1e3531535453, type: 2}
