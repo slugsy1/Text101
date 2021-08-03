@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4c26927ca4526444b8e3f2710639f68, type: 3}
   m_Name: room2
   m_EditorClassIdentifier: 
-  stateText: room2
+  stateText: "3\r\nYou open the trapdoor and you are knocked back by the smell of
+    the sewer\r\n\r\nDo you \r\n\r\n1 : Go in\r\n2 : Search room"
   nextState:
-  - {fileID: 11400000, guid: a9a2653bbbe300e499ee4170982e945d, type: 2}
-  - {fileID: 11400000, guid: 53a8e4c32bb5c1e49822faa2aeb536e1, type: 2}
+  - {fileID: 11400000, guid: f354bf5e726cb2b42b1fa746200dbfe9, type: 2}

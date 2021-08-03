@@ -10,23 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4c26927ca4526444b8e3f2710639f68, type: 3}
-  m_Name: StartingState
+  m_Name: room4
   m_EditorClassIdentifier: 
-  stateText: '1
+  stateText: '5
 
-    Your journey has just begun you are in a room there is a door
-    to your left and a trapdoor in the floor.
-
-    
-
-    Which way do you go:
+    When you open the door you can go left or right
 
     
 
-    1
-    : Door
+    Which
+    way
 
-    2 : Trapdoor'
-  nextState:
-  - {fileID: 11400000, guid: 53a8e4c32bb5c1e49822faa2aeb536e1, type: 2}
-  - {fileID: 11400000, guid: aa64f6a96b84b8b4bb8c1e3531535453, type: 2}
+    
+
+    1 :Left
+
+    2 :Right'
+  nextState: []
