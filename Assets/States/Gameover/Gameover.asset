@@ -10,20 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4c26927ca4526444b8e3f2710639f68, type: 3}
-  m_Name: room4
+  m_Name: Gameover
   m_EditorClassIdentifier: 
-  stateText: '5
+  stateText: 'GAME OVER
 
-    When you open the door you can go left or right
 
-    
+    Do you want to play again or Quit
 
-    Which
-    way
 
-    
+    1 : Play again
 
-    1 :Left
-
-    2 :Right'
-  nextState: []
+    2
+    : Quit'
+  nextState:
+  - {fileID: 11400000, guid: a9a2653bbbe300e499ee4170982e945d, type: 2}

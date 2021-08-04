@@ -10,9 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4c26927ca4526444b8e3f2710639f68, type: 3}
-  m_Name: room2
+  m_Name: room3
   m_EditorClassIdentifier: 
-  stateText: "3\r\nYou open the trapdoor and you are knocked back by the smell of
-    the sewer\r\n\r\nDo you \r\n\r\n1 : Go in\r\n2 : Search room"
+  stateText: '4
+
+    You search the room and find a pick lock
+
+
+
+    1 : Unlock door'
   nextState:
-  - {fileID: 11400000, guid: f354bf5e726cb2b42b1fa746200dbfe9, type: 2}
+  - {fileID: 11400000, guid: 9ddecd370620ba84fad77c03ddd78b0e, type: 2}

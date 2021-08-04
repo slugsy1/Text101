@@ -10,23 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4c26927ca4526444b8e3f2710639f68, type: 3}
-  m_Name: StartingState
+  m_Name: room1
   m_EditorClassIdentifier: 
-  stateText: '1
+  stateText: '2
 
-    Your journey has just begun you are in a room there is a door
-    to your left and a trapdoor in the floor.
+    The door is locked you need a key or a pick lock
 
-    
 
-    Which way do you go:
 
-    
+    What
+    do you do
 
-    1
-    : Door
 
-    2 : Trapdoor'
+
+    1 : Search room
+
+    2 : Try trapdoor'
   nextState:
-  - {fileID: 11400000, guid: 53a8e4c32bb5c1e49822faa2aeb536e1, type: 2}
+  - {fileID: 11400000, guid: f354bf5e726cb2b42b1fa746200dbfe9, type: 2}
   - {fileID: 11400000, guid: aa64f6a96b84b8b4bb8c1e3531535453, type: 2}
