@@ -23,4 +23,5 @@ MonoBehaviour:
     2
     : Quit'
   nextState:
-  - {fileID: 11400000, guid: a9a2653bbbe300e499ee4170982e945d, type: 2}
+  - {fileID: 11400000, guid: 53a8e4c32bb5c1e49822faa2aeb536e1, type: 2}
+  - {fileID: 11400000, guid: 03454b4e7c7a5c84697610f0227da3da, type: 2}
